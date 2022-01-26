@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		20F3F62427A089B900B1F126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F62327A089B900B1F126 /* AppDelegate.swift */; };
 		20F3F62627A089B900B1F126 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F62527A089B900B1F126 /* SceneDelegate.swift */; };
-		20F3F62827A089B900B1F126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F62727A089B900B1F126 /* ViewController.swift */; };
+		20F3F62827A089B900B1F126 /* CollectionViewRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F62727A089B900B1F126 /* CollectionViewRestaurants.swift */; };
 		20F3F62B27A089B900B1F126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F3F62927A089B900B1F126 /* Main.storyboard */; };
 		20F3F62D27A089BD00B1F126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F3F62C27A089BD00B1F126 /* Assets.xcassets */; };
 		20F3F63027A089BD00B1F126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F3F62E27A089BD00B1F126 /* LaunchScreen.storyboard */; };
 		20F3F63B27A089BD00B1F126 /* JahezTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F63A27A089BD00B1F126 /* JahezTaskTests.swift */; };
 		20F3F64527A089BD00B1F126 /* JahezTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F64427A089BD00B1F126 /* JahezTaskUITests.swift */; };
 		20F3F64727A089BD00B1F126 /* JahezTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F64627A089BD00B1F126 /* JahezTaskUITestsLaunchTests.swift */; };
+		20F3F65427A08A1D00B1F126 /* jahez.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F3F65327A08A1D00B1F126 /* jahez.png */; };
+		20F3F65627A08AAE00B1F126 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F65527A08AAE00B1F126 /* WebService.swift */; };
+		20F3F65827A08C1600B1F126 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F65727A08C1600B1F126 /* Restaurant.swift */; };
+		20F3F65A27A09F5200B1F126 /* RestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F65927A09F5200B1F126 /* RestaurantDetail.swift */; };
+		20F3F65D27A11AD000B1F126 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 20F3F65C27A11AD000B1F126 /* SDWebImage */; };
+		20F3F66227A12D3D00B1F126 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F66127A12D3D00B1F126 /* RootViewController.swift */; };
+		20F3F66427A12E8B00B1F126 /* TableViewRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F66327A12E8B00B1F126 /* TableViewRestaurants.swift */; };
+		20F3F66627A131B500B1F126 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3F66527A131B500B1F126 /* RestaurantCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,7 @@
 		20F3F62027A089B900B1F126 /* JahezTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JahezTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F3F62327A089B900B1F126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F3F62527A089B900B1F126 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20F3F62727A089B900B1F126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20F3F62727A089B900B1F126 /* CollectionViewRestaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewRestaurants.swift; sourceTree = "<group>"; };
 		20F3F62A27A089B900B1F126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20F3F62C27A089BD00B1F126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20F3F62F27A089BD00B1F126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,13 @@
 		20F3F64027A089BD00B1F126 /* JahezTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JahezTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F3F64427A089BD00B1F126 /* JahezTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JahezTaskUITests.swift; sourceTree = "<group>"; };
 		20F3F64627A089BD00B1F126 /* JahezTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JahezTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20F3F65327A08A1D00B1F126 /* jahez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jahez.png; sourceTree = "<group>"; };
+		20F3F65527A08AAE00B1F126 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		20F3F65727A08C1600B1F126 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		20F3F65927A09F5200B1F126 /* RestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetail.swift; sourceTree = "<group>"; };
+		20F3F66127A12D3D00B1F126 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		20F3F66327A12E8B00B1F126 /* TableViewRestaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewRestaurants.swift; sourceTree = "<group>"; };
+		20F3F66527A131B500B1F126 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20F3F65D27A11AD000B1F126 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +117,14 @@
 			children = (
 				20F3F62327A089B900B1F126 /* AppDelegate.swift */,
 				20F3F62527A089B900B1F126 /* SceneDelegate.swift */,
-				20F3F62727A089B900B1F126 /* ViewController.swift */,
+				20F3F65E27A11C5200B1F126 /* Controller */,
 				20F3F62927A089B900B1F126 /* Main.storyboard */,
 				20F3F62C27A089BD00B1F126 /* Assets.xcassets */,
+				20F3F65327A08A1D00B1F126 /* jahez.png */,
 				20F3F62E27A089BD00B1F126 /* LaunchScreen.storyboard */,
 				20F3F63127A089BD00B1F126 /* Info.plist */,
+				20F3F65F27A11C6B00B1F126 /* WebService */,
+				20F3F66027A11C7B00B1F126 /* Model */,
 			);
 			path = JahezTask;
 			sourceTree = "<group>";
@@ -127,6 +146,42 @@
 			path = JahezTaskUITests;
 			sourceTree = "<group>";
 		};
+		20F3F65E27A11C5200B1F126 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20F3F62727A089B900B1F126 /* CollectionViewRestaurants.swift */,
+				20F3F65927A09F5200B1F126 /* RestaurantDetail.swift */,
+				20F3F66127A12D3D00B1F126 /* RootViewController.swift */,
+				20F3F66327A12E8B00B1F126 /* TableViewRestaurants.swift */,
+				20F3F66727A1395300B1F126 /* Cell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20F3F65F27A11C6B00B1F126 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				20F3F65527A08AAE00B1F126 /* WebService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		20F3F66027A11C7B00B1F126 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20F3F65727A08C1600B1F126 /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20F3F66727A1395300B1F126 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				20F3F66527A131B500B1F126 /* RestaurantCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +198,9 @@
 			dependencies = (
 			);
 			name = JahezTask;
+			packageProductDependencies = (
+				20F3F65C27A11AD000B1F126 /* SDWebImage */,
+			);
 			productName = JahezTask;
 			productReference = 20F3F62027A089B900B1F126 /* JahezTask.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +273,9 @@
 				Base,
 			);
 			mainGroup = 20F3F61727A089B900B1F126;
+			packageReferences = (
+				20F3F65B27A11ACF00B1F126 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 20F3F62127A089B900B1F126 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +294,7 @@
 			files = (
 				20F3F63027A089BD00B1F126 /* LaunchScreen.storyboard in Resources */,
 				20F3F62D27A089BD00B1F126 /* Assets.xcassets in Resources */,
+				20F3F65427A08A1D00B1F126 /* jahez.png in Resources */,
 				20F3F62B27A089B900B1F126 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20F3F62827A089B900B1F126 /* ViewController.swift in Sources */,
+				20F3F65827A08C1600B1F126 /* Restaurant.swift in Sources */,
+				20F3F62827A089B900B1F126 /* CollectionViewRestaurants.swift in Sources */,
+				20F3F66627A131B500B1F126 /* RestaurantCell.swift in Sources */,
 				20F3F62427A089B900B1F126 /* AppDelegate.swift in Sources */,
+				20F3F66227A12D3D00B1F126 /* RootViewController.swift in Sources */,
+				20F3F66427A12E8B00B1F126 /* TableViewRestaurants.swift in Sources */,
+				20F3F65A27A09F5200B1F126 /* RestaurantDetail.swift in Sources */,
+				20F3F65627A08AAE00B1F126 /* WebService.swift in Sources */,
 				20F3F62627A089B900B1F126 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,6 +692,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20F3F65B27A11ACF00B1F126 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20F3F65C27A11AD000B1F126 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20F3F65B27A11ACF00B1F126 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20F3F61827A089B900B1F126 /* Project object */;
 }
